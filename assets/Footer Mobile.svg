@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="377.248" height="390" viewBox="0 0 377.248 390">
+  <defs>
+    <filter id="Footer_Mobile" x="0" y="0" width="377.248" height="390" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="-15" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#f886bc" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Footer_Mobile)">
+    <path id="Footer_Mobile-2" data-name="Footer Mobile" d="M-875,13283.586h375l.248,375H-875Z" transform="translate(877 -13268.59)" fill="#6e296c"/>
+  </g>
+</svg>

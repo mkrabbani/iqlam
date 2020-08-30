@@ -1,0 +1,682 @@
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+    body {
+        background-image: url('assets/Header\ Mobile.svg');
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 480px;
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+    }
+
+    p {
+        font-size: 3.5vw;
+    }
+
+    /* Header */
+
+    .header-left img {
+        width: 75px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    
+
+    /* End Header*/
+
+   /* Top */
+
+    .top-wrapper {
+        height: 400px;
+        margin-left: 0px;
+    }
+
+    .top-left {
+        padding-top: 0px;
+    }
+
+    .top-left h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .top-left p{
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .top-item {
+        margin-top: 0px;
+        float: left;
+        width: 100%;
+    }
+
+    #top_btn {
+        margin-top: 20px;
+        margin-left: 95px;
+        background-color: #F93B95;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    #top_btn:hover {
+        background-color: violet;
+    }
+
+
+    #img-header {
+        display: none;
+    }
+
+    /* End Top */ 
+    
+    /*About*/
+
+    .about-wrapper {
+        height: 600px;
+        margin-left: 0px;
+    }
+
+    .about-item {
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+    }
+
+    #about-image {
+        width: 80%;
+        padding-left: 70px;
+    }
+    /*End About*/
+
+    /* Shop */
+
+    .shop-wrapper {
+        height: 500px;
+        margin-left: 0px;
+    }
+
+    .shop-item {
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+    }
+
+
+    #img-shop {
+        margin-top: 20px;
+        width: 80%;
+        padding-right: 30px;
+    }
+    /* End Shop */
+
+    /* Contact */
+
+    .contact-wrapper {
+        height: 700px;
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+    .contact-item {
+        margin-top: 30px;
+        float: left;
+        width: 100%;
+    }
+
+    .ngisi {
+        width: 340px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: #E6E6E6;
+        color: #6E296C;
+        font-weight: bold;
+    }
+
+    #ngisi_textarea {
+        width: 340px;
+    }
+
+    #btn_submit {
+        margin-top: 20px;
+        width: 340px;
+        height: 35px;
+    }
+
+    /* End Contact */
+
+
+    /*Footer*/
+
+    .footer-wrapper {
+        background-image: none;
+        background-color: #6E296C;
+    }
+
+    footer .test {
+        display: inline-block;
+        padding-top: 20px;
+        
+    }
+
+    footer .f-item {
+        padding-left: 10px;
+        float: left;
+        width: 100%;
+    }
+
+    footer h3 {
+        color: white;
+    }
+
+    .f-item p{
+        font-size: 3.5vw;
+    }
+
+    .test a{
+        color: white;
+        display: block;
+    }
+
+    .test a:hover{
+        color: violet;
+    }
+
+    footer .copyright {
+        padding-top: 50px;
+    }
+
+    /*End Footer*/
+}
+
+
+.sz-navbar{
+    height: 48px; /* overriding default 64px height */
+}
+
+.sz-navbar-inner{
+    padding: 0 24px;
+}
+
+@media (max-width: 600px){
+    .sz-navbar-items{
+        width: 300px; /* limit width of mobile menu */
+    }
+}
+
+
+/* Untuk Tablet iPad Pro*/
+@media all and (max-width: 1024px) and (min-width: 769px) {
+
+    body {
+        background-image: url('assets/iPad\ Pro\ Background.svg');
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    /* Header */
+
+    .header-left img {
+        width: 75px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    
+
+    /* End Header*/
+
+   /* Top */
+
+    .top-wrapper {
+        height: 700px;
+        margin-left: 0px;
+    }
+
+    .top-left {
+        padding-top: 0px;
+    }
+
+    .top-left h1{
+        margin-top: 150px;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+
+    .top-left p{
+        color: white;
+        font-size: 1.5vw;
+        padding-right: 0px;
+    }
+
+    .top-item {
+        margin-top: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+    #top_btn {
+        margin-top: 20px;
+        background-color: #F93B95;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    #top_btn:hover {
+        background-color: violet;
+    }
+
+
+    #img-header {
+        margin-top: 100px;
+        width: 80%;
+    }
+
+    /* End Top */ 
+    
+    /*About*/
+
+    .about-wrapper {
+        height: 800px;
+        margin-left: 0px;
+    }
+
+    .about-item {
+        margin-top: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+    #about-image {
+        width: 80%;
+    }
+    /*End About*/
+
+    /* Shop */
+
+    .shop-wrapper {
+        height: 700px;
+        margin-left: 0px;
+    }
+
+    .shop-item {
+        margin-top: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+
+    #img-shop {
+        margin-top: 20px;
+        width: 80%;
+        padding-right: 70px;
+    }
+    /* End Shop */
+
+    /* Contact */
+
+    .contact-wrapper {
+        height: 700px;
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+    .contact-item {
+        margin-top: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+    .ngisi {
+        width: 400px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: #E6E6E6;
+        color: #6E296C;
+        font-weight: bold;
+    }
+
+    #ngisi_textarea {
+        width: 400px;
+    }
+
+    #btn_submit {
+        margin-top: 20px;
+        width: 100px;
+        height: 35px;
+    }
+
+    /* End Contact */
+
+
+    /*Footer*/
+
+    .footer-wrapper {
+        height: auto;
+        background-image: none;
+        background-color: #6E296C;
+    }
+
+    footer .test {
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    footer .f-item {
+        padding-left: 10px;
+        float: left;
+        width: 33%;
+    }
+
+    footer .f-mid {
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    
+    footer h3 {
+        color: white;
+    }
+
+    
+    .f-item p{
+        font-size: 1.5vw;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .test a{
+        color: white;
+        display: block;
+        font-size: 1.5vw;
+    }
+
+    .test a:hover{
+        color: violet;
+    }
+
+    footer .copyright {
+        padding-top: 100px;
+    }
+
+    /*End Footer*/
+
+  }
+
+  /* Untuk Tablet iPad*/
+@media all and (max-width: 768px) and (min-width: 671px) {
+
+    
+    body {
+        background-image: url('assets/iPad\ Background.svg');
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    /* Header */
+
+    .header-left img {
+        width: 75px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    
+
+    /* End Header*/
+
+   /* Top */
+
+    .top-wrapper {
+        height: 500px;
+        margin-left: 0px;
+    }
+
+    .top-left {
+        padding-top: 0px;
+    }
+
+    .top-left h1{
+        margin-top: 150px;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+
+    .top-left p{
+        color: white;
+        font-size: 1.5vw;
+        padding-right: 0px;
+    }
+
+    .top-item {
+        margin-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+    #top_btn {
+        margin-top: 20px;
+        background-color: #F93B95;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    #top_btn:hover {
+        background-color: violet;
+    }
+
+
+    #img-header {
+        margin-top: 150px;
+        width: 80%;
+    }
+
+    /* End Top */ 
+    
+    /*About*/
+
+    .about-wrapper {
+        height: 600px;
+        margin-left: 0px;
+    }
+
+    .about-item {
+        margin-top: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+    #about-image {
+        width: 80%;
+    }
+    /*End About*/
+
+    /* Shop */
+
+    .shop-wrapper {
+        height: 600px;
+        margin-left: 0px;
+    }
+
+    .shop-item {
+        margin-top: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+
+    #img-shop {
+        margin-top: 20px;
+        width: 80%;
+        padding-right: 30px;
+    }
+    /* End Shop */
+
+    /* Contact */
+
+    .contact-wrapper {
+        height: 600px;
+        margin-left: 0px;
+        padding-top: 20px;
+    }
+
+    .contact-item {
+        margin-top: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 50%;
+    }
+
+    .ngisi {
+        width: 350px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: #E6E6E6;
+        color: #6E296C;
+        font-weight: bold;
+    }
+
+    #ngisi_textarea {
+        width: 350px;
+    }
+
+    #btn_submit {
+        margin-top: 20px;
+        width: 100px;
+        height: 35px;
+    }
+
+    /* End Contact */
+
+
+    /*Footer*/
+
+    .footer-wrapper {
+        height: 200px;
+        background-image: none;
+        background-color: #6E296C;
+    }
+
+    footer .test {
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    footer .f-item {
+        padding-left: 10px;
+        float: left;
+        width: 33%;
+    }
+
+    footer .f-mid {
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+
+    footer h3 {
+        color: white;
+    }
+
+    
+    .f-item p{
+        font-size: 1.5vw;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .test a {
+        color: white;
+        display: block;
+        font-size: 1.5vw;
+    }
+
+    .test a:hover{
+        color: violet;
+    }
+
+    footer .copyright {
+        padding-top: 100px;
+    }
+
+    /*End Footer*/
+  }

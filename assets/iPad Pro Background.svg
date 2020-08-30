@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="815" viewBox="0 0 1024 815">
+  <defs>
+    <filter id="iPad_Pro_Background" x="0" y="0" width="1024" height="815" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#f886bc" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#iPad_Pro_Background)">
+    <path id="iPad_Pro_Background-2" data-name="iPad Pro Background" d="M28.877,8970.256l1023.971-.053-.067,640.98s-91.4,88.563-193.236,70.113-309.739-89.7-337.861-32.928-126.082-24.513-239.034,0-164.565,180.372-212.773,98.053c-22.5-38.414-40.99,10.271-40.99,10.271v-40.106l-.039-692.648Z" transform="translate(-28.85 -8970.2)" fill="#6e296c"/>
+  </g>
+</svg>

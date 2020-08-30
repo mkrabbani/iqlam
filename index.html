@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqlam - Online Book Store</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+    <link rel="stylesheet" href="css/sz-navbar.css" type="text/css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!---Start Header--->
+    <header class="header-wrapper" >
+        <div class="container">
+            <div class="sz-navbar">       
+                <div class="sz-navbar-inner sz-navbar-right">
+                    <div class="demo-navbar-logo"><span><img src="logo.png" width="80px"/></span></div>
+                    <input type="checkbox" id="sz-navbar-check">
+                    <label for="sz-navbar-check" class="sz-navbar-hamburger">☰</label>
+                    <div class="sz-navbar-items">
+                        <div class="sz-navbar-item"><span><a href="#">Home</a></span></div>
+                        <div class="sz-navbar-item"><span><a href="#about">About</a></span></div>
+                        <div class="sz-navbar-item"><span><a href="#shop">Shop</a></span></div>
+                        <div class="sz-navbar-item"><span><a href="#contact">Contact</a></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---End Header--->
+
+    <!--Start Top-->
+    <div class="top-wrapper">
+        <div class="container">
+            <div class="top-item top-left" data-aos="fade-left">
+                <h1>Beli buku-buku berkualitas dari <br> manapun dan kapanpun !</h1>
+                <p>Pellentesque volutpat ornare libero at hendrerit. Pellentesque at porttitor odio. Etiam euismod, lectus sit amet consequat imperdiet, ut elementum lorem eros vel odio.</p>
+                <button id="top_btn">Shop Now</button>
+            </div>
+            <div class="top-item top-right" data-aos="fade-left">
+                <img id="img-header" src="assets/Header Image.svg" alt="header-image" width="600px" height="auto" />
+            </div>
+        </div>
+    </div>
+    <!--End Top-->
+
+    <!--Start About-->
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="container">
+                <div class="about-item" data-aos="fade-right">
+                    <img src="assets/About.svg" id="about-image" alt="about-image" width="500px" />
+                </div>
+                <div class="about-item" data-aos="fade-right">
+                    <h1>About</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt blandit mauris, id euismod tortor. Suspendisse a congue tortor, ac laoreet lorem. Sed ut sem enim. Nam quis venenatis ante.</p>
+                    <p>Cras et hendrerit purus. In sodales purus metus, quis volutpat massa elementum eget. Proin gravida pulvinar metus sit amet tincidunt. Maecenas nec mauris ac mauris porttitor euismod non vehicula ligula. Nulla pharetra nulla sit amet nunc mattis, ut accumsan neque sagitti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End About-->
+
+    <!--Start Shop-->
+    <section id="shop">
+        <div class="shop-wrapper">
+            <div class="container">
+                <div class="shop-item shop-left" data-aos="fade-left">
+                    <h1>Shop</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt blandit mauris, id euismod tortor. Suspendisse a congue tortor, ac laoreet lorem. Sed ut sem enim. Nam quis venenatis ante.</p>
+                    <br>
+                    <a href="#"><u>Go To Store</u></a>
+                </div>
+                <div class="shop-item shop-right" data-aos="fade-left">
+                    <img id="img-shop" src="assets/Shop.svg" alt="about-image" width="400px" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Shop-->
+
+    <!--Start Contact-->
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="container">
+                <div class="contact-item contact-left" data-aos="fade-up">
+                    <form>
+                        <input class="ngisi" type="text" id="email" name="email" value="Email"><br>
+                        <input class="ngisi" type="text" id="name" name="name" value="Name"><br>
+                        <textarea rows="10" id="ngisi_textarea" name="message" form="message" style="border-style: none; background-color: #E6E6E6; color: #6E296C; font-weight: bolder;">Enter text here...</textarea><br>
+                        <input type="submit"  id="btn_submit" value="Submit">
+                    </form>
+                </div>
+                <div class="contact-item contact-right" data-aos="fade-up">
+                    <h1>Contact</h1>
+                    <p>Cras et hendrerit purus. In sodales purus metus, quis volutpat massa elementum eget. Proin gravida pulvinar metus sit amet tincidunt. Maecenas nec mauris ac mauris porttitor euismod non vehicula ligula. Nulla pharetra nulla sit amet nunc mattis, ut accumsan neque sagittis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Contact-->
+
+    <!--Start Footer-->
+        <footer class="footer-wrapper">
+            <div class="container">
+                <div class="test">
+                    <div class="f-item" style="padding-top: 10px;">
+                        <img class="logo" src="logo.png" width="80px">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt blandit mauris, id euismod tortor. Suspendisse a congue tortor, ac laoreet</p>
+                    </div>
+                    <div class="f-item f-mid">
+                        <h3>Site</h3>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="f-item f-right">
+                        <p class="copyright">Copyright  2020 IQLAM | online book store.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!--End Footer-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+            disable: false,
+            offset:200,
+            duration:1000,
+            
+        disable: function() {
+            var maxWidth = 1100;
+            return window.innerWidth < maxWidth;
+        }
+      });
+    </script>
+</body>
+<!--Back to Top Button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+</script>
+</html>

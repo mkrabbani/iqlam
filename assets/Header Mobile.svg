@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="465" viewBox="0 0 375 465">
+  <defs>
+    <filter id="Header_Mobile" x="0" y="0" width="375" height="465" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#f886bc" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Header_Mobile)">
+    <path id="Header_Mobile-2" data-name="Header Mobile" d="M28.859,8970.233l374.989-.029-.025,360.551s-33.47,49.816-70.765,39.438-113.43-50.455-123.728-18.521-46.173-13.788-87.537,0-60.265,101.459-77.92,55.155c-8.239-21.609-15.011,5.777-15.011,5.777v-22.561l-.014-389.614Z" transform="translate(-28.85 -8970.2)" fill="#6e296c"/>
+  </g>
+</svg>
